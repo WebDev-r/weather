@@ -1,0 +1,68 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30PX;
+    background-color: rgb(80, 78, 78);
+}
+#container{
+   
+    height:250px;
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(0, 255, 195),rgb(35, 136, 213));
+    margin-top: 170px;
+    border-radius: 20px;
+
+}
+.box{
+    border:2px solid rgb(255, 255, 255);
+    height:100px;
+    width:200px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    border-radius: 10px;
+}
+.result{
+    border:2px solid black;
+    height:20px;
+    width:200px;
+}
+.innerbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:150px;
+    color:white;
+}
+#myText{
+    border-radius: 10px;
+    border:2px solid rgb(255, 255, 255);
+    WIDTH:150px;
+    
+}
+/* #myText:hover{
+    animation-name: jiten;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes jiten{
+    0%{
+        WIDTH:20px;
+    }
+    100%{
+        WIDTH:150px;
+    }
+}
+ */
